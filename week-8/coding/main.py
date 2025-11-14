@@ -1,12 +1,11 @@
 class Person:
-    def __init__(self):
-        self.name=None
+    def __init__(self,name):
+        self.name=name
     def call_person(self,other_person):
         print(f"{self.name} is calling {other_person}")
 
-
-ali = Person()
-ali.name="Ali"
+print(Person)
+ali = Person('Ali')
 ali.call_person("Reza")
 print(ali.name)
 person_2 = ali
