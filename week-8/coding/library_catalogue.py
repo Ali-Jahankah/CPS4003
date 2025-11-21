@@ -27,3 +27,4 @@ book1 = LibraryCatalogue(title="The Great Gatsby", author="F. Scott Fitzgerald",
 book2 = LibraryCatalogue(title="To Kill a Mockingbird", author="Harper Lee", genre="Classics")
 book1.display_info()
 book2.display_info()
+print("This is a test")
